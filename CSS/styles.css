@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'UnifrakturCook', cursive;
+    background-color: rgb(32, 85, 134);
+    color: white;
+    display: inline-block;
+    padding: 0 15px;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;  
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/photo-1.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-1{
+    text-align: center;
+}
+h3{
+    font-family: 'UnifrakturCook', cursive;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+p{
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.background-2{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/photo-2.avif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-3{
+    text-align: center;
+    background-color:rgb(32, 85, 134);
+    color: white;
+    padding: 15px 0;
+}
+h3{
+    font-family: 'UnifrakturCook', cursive;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.background-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/photo-3.avif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.title{
+    text-align: center;
+    background-color: rgb(32, 85, 134);
+    width: 180px;
+    height: 70px;
+    color: #fff;
+    border-radius: 8px ;
+}
+.background-5 {
+    text-align: center;  
+    background-color:rgb(32, 85, 134);
+    color: white;
+    padding: 10px 0; 
+}
+.bacground-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/photo-4.avif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.backgroud-title-1:hover{
+    background-color: red;
+    color: #fff;
+}
